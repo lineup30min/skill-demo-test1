@@ -5,8 +5,8 @@ public class SkillDemoTest1test {
     // Here we need to add a test for our own function!
     @Test
     public void multiplication() {
-        // A test that fail initially
-        assertEquals(4, SkillDemoTest1.multiply(1,2)); 
+        // A test that passes!
+        assertEquals(4, SkillDemoTest1.multiply(1,4)); 
     }
 }
 
